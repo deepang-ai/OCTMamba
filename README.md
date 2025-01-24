@@ -3,11 +3,12 @@
 > More details of this project will be released soon.
 
 # Network Architecture
+The OCTMamba framework is engineered as an advanced encoder-decoder architecture optimized for capturing features at various scales through hierarchical representation learning. This framework is particularly adept at processing complex medical images of the middle ear, aiming to achieve detailed and accurate segmentation. As illustrated in overview, the process begins with the feature extractor, which employs two consecutive convolution layers, each enhanced with instance normalization and GELU activation functions, to refine and deepen the quality of representations from the 3D vivo OCT of the middle ear.
 
 ![Overview](./figures/Overview.png)
 
 # Data Description
-Dataset Name: DIOME
+Dataset Name: [DIOME](https://www.nature.com/articles/s41597-024-03000-0)
 
 Modality: OCT
 
